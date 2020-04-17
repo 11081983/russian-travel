@@ -1,3 +1,8 @@
 .place__link {
     color: white;
+    text-underline-position: under;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }

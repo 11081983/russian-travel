@@ -1,5 +1,5 @@
 .header__logo {
-    flex-basis: 711px;
+    width: 176px;
     min-height: 52px;
     background-image: url('../../../images/header-logo.svg');
     background-size: contain;

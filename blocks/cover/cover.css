@@ -1,8 +1,10 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
+@import url(./__overlay/cover__overlay.css);
 .cover {
-    color: white;
     max-width: 1184px;
-     height: 740px;
-    background-image: url(../../images/cover-trains.jpg);
-}
+    height: 740px;
+    margin: 90px auto;
+               }
+
+   

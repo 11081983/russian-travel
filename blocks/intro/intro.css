@@ -2,6 +2,9 @@
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 .intro {
-    display: grid;
+    width: 690px;
+    max-height: 428px;
     color: white;
+    margin-top: 90px;
+    margin-left: 150px;
 }

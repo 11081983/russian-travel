@@ -1,3 +1,7 @@
+
+@import url(./_one/place__paragraf_one.css);
+@import url(./_two/place__paragraf_two.css);
+
 .place__paragraf {
     font-family: Inter-Regular;
     font-size: 18px;

@@ -3,6 +3,11 @@
 @import url(./__link/footer__link.css);
 
 .footer {
+    max-width: 1184px;
+    margin: auto;
     color: white;
-    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
 }
