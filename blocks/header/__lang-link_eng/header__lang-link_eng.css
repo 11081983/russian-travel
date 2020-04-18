@@ -6,3 +6,9 @@
     line-height: 28px;
     color: white;
     text-decoration: none;}
+
+    @media screen and (max-width: 768px) {
+        .header__lang-link_eng {
+            font-size: 18px;
+           line-height: 24px;  
+        }}

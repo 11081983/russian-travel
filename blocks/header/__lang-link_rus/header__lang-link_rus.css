@@ -7,3 +7,8 @@
     color: white;
     text-underline-position: under;}
     
+    @media screen and (max-width: 768px) {
+        .header__lang-link_rus {
+            font-size: 18px;
+           line-height: 24px;  
+        }}

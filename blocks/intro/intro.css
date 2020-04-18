@@ -2,9 +2,30 @@
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 .intro {
-    width: 690px;
-    max-height: 428px;
+    max-width: 984px;
+   
     color: white;
-    margin-top: 90px;
-    margin-left: 150px;
+     margin: 90px auto;
+  
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+   
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 928px;}}
+
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+    }
 }

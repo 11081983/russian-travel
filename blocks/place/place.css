@@ -7,14 +7,19 @@
 
 .place {
     color: white;
-    max-width: 928px;
-    max-height: 660px;
+    max-width: 100%;
     display: grid;
     grid-gap: 40px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: min-content 2fr;
+    grid-template-rows: min-content 2fr;}
+
+    @media screen and (max-width: 650px) {
+        .place {
+            grid-gap: 40px;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, min-content); 
+        }}
     
     
     
     
-}
