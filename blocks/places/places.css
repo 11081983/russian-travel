@@ -1,27 +1,27 @@
 .places {
     max-width: 984px;
-    
-    margin: 40px auto;
+    margin: 90px auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, min-content);
-    grid-gap: 40px;
-    
+    grid-gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
-        max-width: 928px;}}
-
+        max-width: 928px;
+    }
+}
 
 @media screen and (max-width: 768px) {
-    .places  {
+    .places {
         max-width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .places  {
+    .places {
         max-width: 320px;
+        grid-gap: 50px;
     }
 }

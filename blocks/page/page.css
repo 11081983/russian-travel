@@ -1,28 +1,7 @@
-@font-face {
-    src: url(../../fonts/Inter/Inter-Regular.otf);
-    font-family: 'Inter-Regular';
-}
-
-@font-face {
-    src: url(../../fonts/Inter/Inter-Bold.otf);
-    font-family: 'Inter-Bold';
-    font-style: bold;
-}
-
-@font-face {
-    src: url(../..//fonts/Inter/Inter-Black.otf);
-    font-family: 'Inter-Black';
-}
-
-@font-face {
-    src: url(../..//fonts/Inter/Inter-Medium.otf);
-    font-family: 'Inter-Medium';
-}
-
-
 .page {
     margin: 0 auto;
     background-color: #2A2C2F;
     min-width: 320px;
     max-width: 1600px;
+    font-family: 'Inter-Regular', 'Inter-Bold', 'Inter-Black', 'Inter-Medium', 'Arial', 'Helvetica', sans-serif;
 }

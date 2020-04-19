@@ -1,16 +1,19 @@
-
-@import url(./_one/place__paragraf_one.css);
-@import url(./_two/place__paragraf_two.css);
-
+@import url(./_up/place__paragraf_up.css);
+@import url(./_low/place__paragraf_low.css);
 .place__paragraf {
-    
     font-family: Inter-Regular;
     font-size: 18px;
     line-height: 30px;
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraf  {
+    .place__paragraf {
         font-size: 16px;
         line-height: 26px;
-    }}
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__paragraf {
+        padding: 0 15px 0;
+    }
+}

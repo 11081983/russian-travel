@@ -5,19 +5,22 @@
     line-height: 14px;
     font-family: Inter-Regular;
     letter-spacing: 0.15em;
-    
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__caption{
-        margin: 5px 0 0 0;}}
-
+    .lead__caption {
+        margin: 5px 0 0 0;
+    }
+}
 
 @media screen and (max-width: 768px) {
-    .lead__caption{
-        margin: 5px 0 0 24px;}}
-
+    .lead__caption {
+        margin: 5px 0 0 24px;
+    }
+}
 
 @media screen and (max-width: 320px) {
-    .lead__caption{
-        margin: 5px 0 0 16px;}}
+    .lead__caption {
+        margin: 5px 0 0 16px;
+    }
+}

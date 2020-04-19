@@ -3,16 +3,14 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-  
     justify-content: space-between;
     padding-left: 0;
 }
 
 @media screen and (max-width: 660px) {
     .footer__links {
-        height: 280px;
+        min-height: 280px;
         flex-direction: column;
-        
     }
 }
 
@@ -21,6 +19,7 @@
         width: 45%;
     }
 }
+
 @media screen and (max-width: 950px) {
     .footer__links {
         width: 60%;
