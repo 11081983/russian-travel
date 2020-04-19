@@ -3,9 +3,9 @@
     max-width: 1184px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 16px;
-    margin: 90px auto;
+    margin: 90px auto 0;
 
 }
 @media screen and (max-width: 1024px) {

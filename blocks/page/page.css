@@ -1,21 +1,24 @@
-
 @font-face {
-    src: url(/fonts/Inter/Inter-Regular.otf);
+    src: url(../../fonts/Inter/Inter-Regular.otf);
     font-family: 'Inter-Regular';
 }
+
 @font-face {
-    src: url(/fonts/Inter/Inter-Bold.otf);
+    src: url(../../fonts/Inter/Inter-Bold.otf);
     font-family: 'Inter-Bold';
     font-style: bold;
 }
+
 @font-face {
-    src: url(/fonts/Inter/Inter-Black.otf);
+    src: url(../..//fonts/Inter/Inter-Black.otf);
     font-family: 'Inter-Black';
-    }
-    @font-face {
-        src: url(/fonts/Inter/Inter-Medium.otf);
-        font-family: 'Inter-Medium';
-        }
+}
+
+@font-face {
+    src: url(../..//fonts/Inter/Inter-Medium.otf);
+    font-family: 'Inter-Medium';
+}
+
 
 .page {
     margin: 0 auto;

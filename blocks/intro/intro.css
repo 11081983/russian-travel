@@ -3,20 +3,18 @@
 @import url(./__title/intro__title.css);
 .intro {
     max-width: 984px;
-   
     color: white;
-     margin: 90px auto;
-  
+    margin: 90px auto;
     display: flex;
     flex-direction: column;
     justify-items: start;
-   
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        max-width: 928px;}}
-
+        max-width: 928px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .intro {

@@ -1,11 +1,11 @@
 .places {
     max-width: 984px;
     
-    margin: 90px auto;
+    margin: 40px auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, min-content);
-    grid-gap: 80px;
+    grid-gap: 40px;
     
 }
 

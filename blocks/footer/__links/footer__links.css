@@ -1,9 +1,28 @@
 .footer__links {
+    width: 40%;
     list-style: none;
     display: flex;
     flex-direction: row;
+  
     justify-content: space-between;
-    width: 470px;
     padding-left: 0;
+}
 
+@media screen and (max-width: 660px) {
+    .footer__links {
+        height: 280px;
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 950px) {
+    .footer__links {
+        width: 60%;
+    }
 }
