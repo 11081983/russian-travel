@@ -1,6 +1,7 @@
 .place__link {
     color: white;
     text-underline-position: under;
+    font-family: 'Inter';
 }
 
 .place__link:hover {

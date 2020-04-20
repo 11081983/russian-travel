@@ -1,6 +1,6 @@
 .footer__author {
-    max-width: 186px;
-    font-family: Inter-Regular;
+    max-width: 190px;
+    font-family: Inter;
     font-size: 14px;
     line-height: 16px;
 }
@@ -9,6 +9,6 @@
     .footer__author {
         font-size: 14px;
         line-height: 14px;
-        padding-top: 20px;
+        
     }
 }

@@ -4,7 +4,7 @@
 @import url(./__link/_underline/header__link_underline.css);
 .header {
     max-width: 1184px;
-    max-height: 52px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
