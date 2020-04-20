@@ -16,5 +16,5 @@
 типы устройств.
 
 
-* [Внешняя Ссылка на сайт](https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1)
+* [Сайт на GitHub pages](https://11081983.github.io/russian-travel/)
 
