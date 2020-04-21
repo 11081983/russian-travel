@@ -4,10 +4,42 @@
 .cover {
     max-width: 1184px;
     margin: 90px auto 90px;
-    padding-bottom: 63%;
+    padding-bottom: 60%;
     position: relative;
        
 }
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        padding-bottom: 56%;
+    }
+}
+
+
+@media screen and (min-width: 1490px) {
+    .cover {
+        padding-bottom: 45%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .cover {
+        padding-bottom: 30%;
+    }
+}
+@media screen and (min-width: 3000px) {
+    .cover {
+        padding-bottom: 20%;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 610px) {
     .cover {
